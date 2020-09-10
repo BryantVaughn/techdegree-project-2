@@ -6,10 +6,19 @@
 
 body {
 	background-color: #fff;
-	color: #2a2a2a;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+}
+
+h2,
+a {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
 }
 
 ul {
@@ -18,12 +27,16 @@ ul {
 
 p {
 	line-height: 1.5;
+	font-size: 1.25em;
+}
+p strong {
+	margin-left: 12px;
 }
 
 /* ---- Class Rules ---- */
 
 .container {
-	width: 90%;
+	width: 95%;
 	margin: auto;
 	text-align: center;
 }
@@ -31,11 +44,22 @@ p {
 .main-header,
 .main-footer {
 	background-color: #fafafa;
+	color: #5c5c5c;
 }
 
 .main-header {
 	padding-top: 1.25rem;
+}
+
+.main-header,
+.main-content,
+.main-footer {
 	padding-bottom: 2rem;
+}
+
+.main-content,
+.main-footer {
+	padding-top: 3rem;
 }
 
 .name {
@@ -51,6 +75,38 @@ p {
 	width: 100%;
 }
 
+.section-title,
+.copyright,
+.name {
+	color: #000;
+}
+
+.section-title {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	font-size: 1.25em;
+}
+
+.project-title {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.copyright {
+	border-top: 1px solid lightgray;
+	margin-top: 3rem;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.copyright span {
+	float: left;
+}
+.copyright a {
+	float: right;
+}
+
 /* ---- Nav Styles ---- */
 
 .main-nav {
@@ -63,10 +119,7 @@ p {
 	display: block;
 }
 .main-nav a {
-	color: #2a2a2a;
 	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
 	display: block;
 	padding: 1em;
 }
