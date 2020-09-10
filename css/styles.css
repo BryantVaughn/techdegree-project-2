@@ -16,17 +16,21 @@ ul {
 	list-style: none;
 }
 
+p {
+	line-height: 1.5;
+}
+
 /* ---- Class Rules ---- */
 
 .container {
 	width: 90%;
 	margin: auto;
+	text-align: center;
 }
 
 .main-header,
 .main-footer {
 	background-color: #fafafa;
-	text-align: center;
 }
 
 .main-header {
