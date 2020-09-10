@@ -1,0 +1,36 @@
+/* ---- Main Rules ---- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+/* ---- Class Rules ---- */
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.main-header,
+.main-footer {
+	background-color: lightgray;
+}
+
+.main-header {
+	text-align: center;
+}
+
+.name {
+	margin: 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+}
