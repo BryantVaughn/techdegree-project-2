@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {
+	background-color: #fafafa;
+	padding-top: 2em;
+	text-align: center;
+}
+
+.main-nav li {
+	background-color: #fff;
+}
