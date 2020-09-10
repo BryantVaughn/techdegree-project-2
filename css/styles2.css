@@ -15,9 +15,18 @@ a {
 	text-decoration: none;
 }
 
+.main-header div,
+.main-content div,
+.main-footer div {
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
 .main-header {
 	background-color: #fafafa;
 	padding-top: 2em;
+	padding-bottom: 2.5em;
 	text-align: center;
 }
 
