@@ -2,13 +2,14 @@
 
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	width: 100%;
 }
 
 body {
 	background-color: #fff;
+	color: #2a2a2a;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 ul {
@@ -28,6 +29,10 @@ ul {
 	text-align: center;
 }
 
+.main-header {
+	padding-top: 1.25rem;
+}
+
 .name {
 	margin: 0;
 }
@@ -36,11 +41,24 @@ ul {
 	width: 70%;
 }
 
+.project-img {
+	width: 100%;
+}
+
 /* ---- Nav Styles ---- */
 
+.main-nav {
+	margin-top: 1.25rem;
+	margin-bottom: 2.5rem;
+}
 .main-nav li {
 	background-color: #fff;
+	margin-bottom: 0.35em;
+	padding: 0.8em 2em;
 }
 .main-nav a {
+	color: #2a2a2a;
+	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 }
