@@ -1,6 +1,7 @@
 /* ---- Main Rules ---- */
 
 * {
+	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
@@ -28,9 +29,11 @@ ul {
 p {
 	line-height: 1.5;
 	font-size: 1.25em;
+	font-weight: 300;
 }
 p strong {
 	margin-left: 12px;
+	font-weight: 500;
 }
 
 /* ---- Class Rules ---- */
@@ -85,6 +88,7 @@ p strong {
 	margin-top: 0;
 	margin-bottom: 2rem;
 	font-size: 1.25em;
+	font-weight: bold;
 }
 
 .project-title {
