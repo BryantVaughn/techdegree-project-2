@@ -8,7 +8,11 @@
 }
 
 body {
-	background-color: white;
+	background-color: #fff;
+}
+
+ul {
+	list-style: none;
 }
 
 /* ---- Class Rules ---- */
@@ -20,10 +24,7 @@ body {
 
 .main-header,
 .main-footer {
-	background-color: lightgray;
-}
-
-.main-header {
+	background-color: #fafafa;
 	text-align: center;
 }
 
@@ -31,6 +32,15 @@ body {
 	margin: 0;
 }
 
+.profile-img {
+	width: 70%;
+}
+
+/* ---- Nav Styles ---- */
+
+.main-nav li {
+	background-color: #fff;
+}
 .main-nav a {
 	text-decoration: none;
 }
