@@ -68,12 +68,20 @@ p strong {
 
 .profile-img {
 	width: 75%;
-	margin-top: 3em;
+	margin: 0;
+}
+
+.bio {
+	margin: 0;
 }
 
 .bio,
 .contact p {
-	color: #919191;
+	color: #8a8a8a;
+}
+
+.main-content p {
+	padding: 0 1em;
 }
 
 .main-content,
@@ -87,6 +95,7 @@ p strong {
 
 .section-title {
 	font-size: 1.1em;
+	margin-bottom: 2em;
 }
 
 .main-footer {
@@ -96,7 +105,7 @@ p strong {
 /* ---- Nav Styles ---- */
 
 .main-nav {
-	margin-top: 2em;
+	margin: 2em 0 2.5em;
 }
 
 .main-nav li {
