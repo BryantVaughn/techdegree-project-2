@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #fafafa;
+}
+
 h1 {
 	margin: 0;
 }
@@ -11,8 +15,24 @@ ol {
 	list-style: none;
 }
 
+h2,
+a {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+}
+
 a {
 	text-decoration: none;
+}
+
+.main-header,
+.main-content,
+.main-footer,
+.main-header div,
+.main-content div,
+.main-footer div {
+	text-align: center;
 }
 
 .main-header div,
@@ -20,16 +40,37 @@ a {
 .main-footer div {
 	width: 95%;
 	margin: auto;
-	text-align: center;
+}
+
+.project img {
+	width: 100%;
 }
 
 .main-header {
-	background-color: #fafafa;
 	padding-top: 2em;
 	padding-bottom: 2.5em;
-	text-align: center;
+}
+
+.main-header img {
+	width: 75%;
+}
+
+.main-content {
+	background-color: #fff;
+}
+
+/* ---- Nav Styles ---- */
+
+.main-nav {
+	margin-top: 2em;
 }
 
 .main-nav li {
 	background-color: #fff;
+	margin-bottom: 0.25em;
+}
+
+.main-nav a {
+	display: block;
+	padding: 1em;
 }
