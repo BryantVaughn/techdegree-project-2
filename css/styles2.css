@@ -102,6 +102,10 @@ p strong {
 	padding: 1.5em 0;
 }
 
+.project {
+	padding-bottom: 1.5rem;
+}
+
 .project-img {
 	width: 100%;
 }
@@ -109,13 +113,14 @@ p strong {
 .project-title {
 	font-size: 1.1em;
 	font-weight: 500;
-	margin-bottom: 0.5em;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .project p {
-	font-size: 0.9em;
-	padding: 0 0.8em;
-	margin: 0 0 1.5em;
+	padding: 0 0.3em;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .main-content,
@@ -130,7 +135,7 @@ p strong {
 .section-title {
 	font-size: 0.9em;
 	margin-top: 0;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.5rem;
 }
 
 .main-footer {
