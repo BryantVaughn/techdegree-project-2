@@ -151,3 +151,69 @@ p strong {
 	font-size: 0.9em;
 	font-weight: 700;
 }
+
+/* ---- Media Queries ---- */
+
+@media (min-width: 768px) {
+	/* ---- Nav Styles ---- */
+
+	.main-nav {
+		margin-top: 2em;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		background-color: transparent;
+	}
+
+	.main-nav a {
+		padding: 0 1em;
+	}
+
+	/* ---- Class Styles ---- */
+
+	.main-header {
+		padding-top: 2em;
+	}
+
+	.profile-img {
+		float: right;
+		width: 40%;
+		margin-top: 0.3em;
+	}
+
+	.bio {
+		float: left;
+		width: 60%;
+		margin-top: 0;
+		padding-right: 1em;
+		text-align: left;
+	}
+
+	.project {
+		float: left;
+		width: 50%;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+	}
+
+	.project p {
+		padding: 0 1em;
+	}
+
+	.bio,
+	.contact p {
+		font-size: 1.1em;
+	}
+
+	.contact {
+		width: 60%;
+	}
+
+	/* ---- Clearfix ---- */
+	.group::after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+}
