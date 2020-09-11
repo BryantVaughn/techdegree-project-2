@@ -55,6 +55,22 @@ p strong {
 	background-color: #fbfbfb;
 }
 
+/* ---- Nav Styles ---- */
+
+.main-nav {
+	margin: 2em 0 2.5em;
+}
+
+.main-nav li {
+	background-color: #fff;
+	margin-bottom: 0.3em;
+}
+
+.main-nav a {
+	display: block;
+	padding: 1em;
+}
+
 /* ---- Class Styles ---- */
 
 .project img {
@@ -99,21 +115,9 @@ p strong {
 }
 
 .main-footer {
-	border-top: 1px solid #919191;
-}
-
-/* ---- Nav Styles ---- */
-
-.main-nav {
-	margin: 2em 0 2.5em;
-}
-
-.main-nav li {
-	background-color: #fff;
-	margin-bottom: 0.3em;
-}
-
-.main-nav a {
-	display: block;
-	padding: 1em;
+	border-top: 1px solid #d3d3d3;
+	height: 4em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
