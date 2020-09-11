@@ -32,7 +32,6 @@ a {
 
 p {
 	line-height: 1.5;
-	font-size: 1.1em;
 	font-weight: lighter;
 }
 p strong {
@@ -45,7 +44,7 @@ p strong {
 .main-content,
 .contact,
 .main-footer {
-	width: 95%;
+	width: 90%;
 	margin: auto;
 	text-align: center;
 }
@@ -69,17 +68,18 @@ p strong {
 .main-nav a {
 	display: block;
 	padding: 1em;
+	font-size: 0.9em;
 }
 
 /* ---- Class Styles ---- */
 
-.project img {
-	width: 100%;
-}
-
 .main-header {
 	padding-top: 2em;
 	padding-bottom: 2.5em;
+}
+
+.name {
+	font-size: 1.5em;
 }
 
 .profile-img {
@@ -88,21 +88,39 @@ p strong {
 }
 
 .bio {
-	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0;
 }
 
 .bio,
 .contact p {
 	color: #8a8a8a;
+	font-size: 1em;
 }
 
-.main-content p {
-	padding: 0 1em;
+.project-container {
+	padding: 1.5em 0;
+}
+
+.project-img {
+	width: 100%;
+}
+
+.project-title {
+	font-size: 1.1em;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+}
+
+.project p {
+	font-size: 0.9em;
+	padding: 0 0.8em;
+	margin: 0 0 1.5em;
 }
 
 .main-content,
 .contact {
-	padding: 3em 0;
+	padding-top: 3em;
 }
 
 .contact strong {
@@ -110,8 +128,9 @@ p strong {
 }
 
 .section-title {
-	font-size: 1.1em;
-	margin-bottom: 2em;
+	font-size: 0.9em;
+	margin-top: 0;
+	margin-bottom: 1.5em;
 }
 
 .main-footer {
@@ -120,4 +139,6 @@ p strong {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-size: 0.9em;
+	font-weight: 700;
 }
