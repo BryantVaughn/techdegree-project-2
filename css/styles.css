@@ -193,8 +193,8 @@ p strong {
 	.project {
 		float: left;
 		width: 50%;
-		padding-right: 0.5em;
-		padding-left: 0.5em;
+		padding-right: 0.3em;
+		padding-left: 0.3em;
 	}
 
 	.project p {
