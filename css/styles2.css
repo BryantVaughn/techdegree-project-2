@@ -1,9 +1,13 @@
+/* ---- Base Styles ---- */
+
 * {
+	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #fafafa;
+	background-color: #fff;
+	color: #242424;
 }
 
 h1 {
@@ -26,21 +30,28 @@ a {
 	text-decoration: none;
 }
 
+p {
+	line-height: 1.5;
+	font-size: 1.1em;
+}
+
+/* ---- Container Styles ---- */
+
 .main-header,
 .main-content,
-.main-footer,
-.main-header div,
-.main-content div,
-.main-footer div {
+.contact,
+.main-footer {
+	width: 95%;
+	margin: auto;
 	text-align: center;
 }
 
-.main-header div,
-.main-content div,
-.main-footer div {
-	width: 95%;
-	margin: auto;
+.header-container,
+.footer-container {
+	background-color: #fbfbfb;
 }
+
+/* ---- Class Styles ---- */
 
 .project img {
 	width: 100%;
@@ -51,12 +62,22 @@ a {
 	padding-bottom: 2.5em;
 }
 
-.main-header img {
+.profile-img {
 	width: 75%;
+	margin-top: 3em;
 }
 
-.main-content {
-	background-color: #fff;
+.bio,
+.contact p {
+	color: #919191;
+}
+
+.contact {
+	padding-bottom: 1.5em;
+}
+
+.main-footer {
+	border-top: 1px solid #919191;
 }
 
 /* ---- Nav Styles ---- */
@@ -67,7 +88,7 @@ a {
 
 .main-nav li {
 	background-color: #fff;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.3em;
 }
 
 .main-nav a {
