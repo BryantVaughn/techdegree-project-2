@@ -22,17 +22,21 @@ ol {
 h2,
 a {
 	text-transform: uppercase;
-	color: #000;
 	font-weight: bold;
 }
 
 a {
 	text-decoration: none;
+	color: #242424;
 }
 
 p {
 	line-height: 1.5;
 	font-size: 1.1em;
+	font-weight: lighter;
+}
+p strong {
+	font-weight: bold;
 }
 
 /* ---- Container Styles ---- */
@@ -72,8 +76,17 @@ p {
 	color: #919191;
 }
 
+.main-content,
 .contact {
-	padding-bottom: 1.5em;
+	padding: 3em 0;
+}
+
+.contact strong {
+	padding-left: 0.5em;
+}
+
+.section-title {
+	font-size: 1.1em;
 }
 
 .main-footer {
