@@ -38,6 +38,10 @@ p strong {
 	font-weight: bold;
 }
 
+address {
+	font-style: normal;
+}
+
 /* ---- Container Styles ---- */
 
 .main-header,
@@ -152,7 +156,14 @@ p strong {
 	font-weight: 700;
 }
 
-/* ---- Media Queries ---- */
+/* ---- Clearfix ---- */
+.group::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* ---- Tablet Media Query ---- */
 
 @media (min-width: 768px) {
 	/* ---- Nav Styles ---- */
@@ -210,10 +221,30 @@ p strong {
 		width: 60%;
 	}
 
-	/* ---- Clearfix ---- */
-	.group::after {
-		content: '';
-		clear: both;
-		display: table;
+	.contact .section-title {
+		margin-bottom: 2.5rem;
 	}
+
+	.contact p {
+		margin: 0;
+	}
+
+	.address {
+		padding-top: 1em;
+	}
+
+	.address p {
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+
+	.main-footer {
+		height: 6rem;
+		padding-bottom: 2rem;
+	}
+}
+
+/* ---- Large Screen Media Query ---- */
+
+@media (min-width: 1024px) {
 }
