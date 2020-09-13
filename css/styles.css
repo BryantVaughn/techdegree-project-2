@@ -332,6 +332,7 @@ address {
 
 	.contact {
 		width: 55%;
+		max-width: 670px;
 	}
 
 	/* ---- Footer Styles ---- */
