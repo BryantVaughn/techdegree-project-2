@@ -48,7 +48,7 @@ address {
 .main-content,
 .contact,
 .main-footer {
-	width: 90%;
+	width: 95%;
 	margin: auto;
 	text-align: center;
 }
@@ -219,15 +219,18 @@ address {
 
 	/* ---- Content Styles ---- */
 
+	.project-container {
+		padding-bottom: 0;
+	}
+
 	.project {
 		float: left;
 		width: 50%;
-		padding-right: 0.3em;
-		padding-left: 0.3em;
+		padding: 0 0.3em 3em;
 	}
 
 	.project p {
-		padding: 0 1em;
+		padding: 0 3em;
 	}
 
 	.bio,
@@ -236,7 +239,7 @@ address {
 	}
 
 	.contact {
-		width: 60%;
+		width: 65%;
 	}
 
 	.contact .section-title {
