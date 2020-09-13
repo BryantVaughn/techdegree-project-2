@@ -27,7 +27,11 @@ a {
 
 a {
 	text-decoration: none;
-	color: #242424;
+	color: rgba(46, 80, 114, 1);
+	transition: 0.2s ease-in;
+}
+a:hover {
+	opacity: 0.5;
 }
 
 p {
@@ -40,6 +44,11 @@ p strong {
 
 address {
 	font-style: normal;
+}
+
+.name,
+.main-footer {
+	color: rgb(46, 80, 114);
 }
 
 /* ---- Container Styles ---- */
@@ -73,6 +82,10 @@ address {
 	display: block;
 	padding: 0.75rem;
 	font-size: 0.9em;
+}
+
+.full-nav {
+	display: none;
 }
 
 /* ---- Header Styles ---- */
@@ -168,10 +181,6 @@ address {
 	font-weight: 700;
 }
 
-.full-nav {
-	display: none;
-}
-
 /* ---- Clearfix ---- */
 .group::after {
 	content: '';
@@ -227,6 +236,7 @@ address {
 		float: left;
 		width: 50%;
 		padding: 0 0.3em 3em;
+		min-height: 450px;
 	}
 
 	.project p {
@@ -325,17 +335,19 @@ address {
 
 	.project {
 		width: 33%;
-		padding-left: 0.75em;
-		padding-right: 0.75em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		min-height: 320px;
 	}
 
 	.project p {
-		padding: 0 0.75em;
+		padding: 0 0.25em;
 	}
 
 	.contact {
 		width: 55%;
 		max-width: 670px;
+		padding-bottom: 4em;
 	}
 
 	/* ---- Footer Styles ---- */
