@@ -142,6 +142,15 @@ address {
 	margin-bottom: 0;
 }
 
+.skills {
+	font-weight: 300;
+	padding-bottom: 2em;
+}
+
+.col li {
+	padding-bottom: 1em;
+}
+
 .main-content,
 .contact {
 	padding-top: 3em;
@@ -235,12 +244,22 @@ address {
 	.project {
 		float: left;
 		width: 50%;
-		padding: 0 0.3em 3em;
-		min-height: 450px;
+		padding: 0 0.3em;
+		min-height: 400px;
 	}
 
 	.project p {
-		padding: 0 3em;
+		padding: 0 2em;
+	}
+
+	.col {
+		float: left;
+	}
+
+	.primary,
+	.secondary,
+	.tertiary {
+		width: 33%;
 	}
 
 	.bio,
@@ -252,8 +271,9 @@ address {
 		width: 65%;
 	}
 
-	.contact .section-title {
-		margin-bottom: 2.5rem;
+	.contact .section-title,
+	.skills .section-title {
+		margin-bottom: 3rem;
 	}
 
 	.contact p {
