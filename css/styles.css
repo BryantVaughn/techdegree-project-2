@@ -1,7 +1,7 @@
 /* ---- Base Styles ---- */
 
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
 	box-sizing: border-box;
 }
 
@@ -329,6 +329,15 @@ address {
 		margin-top: 0;
 	}
 
+	.main-nav li,
+	.full-nav li {
+		padding-left: 1.25rem;
+	}
+
+	.main-nav a {
+		padding: 0;
+	}
+
 	/* ---- Header Styles ---- */
 
 	.main-header {
@@ -336,6 +345,7 @@ address {
 		width: 85%;
 		max-width: 1000px;
 	}
+
 	.name {
 		float: left;
 	}
@@ -353,6 +363,10 @@ address {
 		background-color: #fff;
 	}
 
+	.project-container {
+		padding-bottom: 2em;
+	}
+
 	.project {
 		width: 33%;
 		padding-left: 0.5em;
@@ -362,6 +376,11 @@ address {
 
 	.project p {
 		padding: 0 0.25em;
+	}
+
+	.skills {
+		width: 80%;
+		margin: auto;
 	}
 
 	.contact {
@@ -374,9 +393,5 @@ address {
 	.main-footer {
 		height: 4rem;
 		padding-bottom: 0;
-	}
-
-	.full-nav li {
-		padding-left: 2.5em;
 	}
 }
