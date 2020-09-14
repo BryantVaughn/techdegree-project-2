@@ -364,14 +364,14 @@ address {
 	}
 
 	.project-container {
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 	}
 
 	.project {
 		width: 33%;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
-		min-height: 320px;
+		min-height: 350px;
 	}
 
 	.project p {
